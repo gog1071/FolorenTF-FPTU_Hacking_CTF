@@ -60,12 +60,12 @@ Từ đây chúng ta tính được `q`, `phi` và `d`.
 
 Để lấy được flag, chúng ta phải truyền vào `user_d` sao cho `user_d != d && pow(ct,user_d,n) == pow(ct,d,n)`
 
-Ta biết pow(a,b,c) == a**b%c.  
-=> ct**user_d%n == ct**d%n  
-<=> ct**user_d ≡ ct**d (mod n)  
-<=> (m**e)**user_d ≡ (m**e)**d (mod n)  
-<=> m**(e\*user_d) ≡ m**ed (mod n)  
-<=> e\*user_d ≡ e\*d ≡ 1 (mod n)  
+Ta biết pow(a,b,c) == a ** b%c.  
+=> ct ** user_d%n == ct ** d%n  
+<=> ct** user_d ≡ ct ** d (mod n)  
+<=> (m ** e) ** user_d ≡ (m ** e) ** d (mod n)  
+<=> m ** (e * user_d) ≡ m ** ed (mod n)  
+<=> e * user_d ≡ ed ≡ 1 (mod n)  
 Ta có ed ≡ (ed)^2 ≡ 1 (mod n)
 => user_d = e(d^2) 
 
