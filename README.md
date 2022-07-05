@@ -1,5 +1,5 @@
-# FolorenTF-WriteUp-FPTU-Hacking-CTF
+# FolorenTF-FPTU-Hacking-CTF
 
-## Write up contributed by
+## contributed by
 
 Lưu Việt Tùng ( gog1071 )
